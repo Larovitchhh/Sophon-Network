@@ -1,0 +1,33 @@
+from github import Github
+
+# Replace with your GitHub Personal Access Token
+access_token = "your-personal-access-token"
+
+# Initialize GitHub client
+g = Github(access_token)
+
+# Replace with your GitHub username or organization
+user = g.get_user()
+
+# Repository details
+repo_name = "sophon-network-core"
+repo_description = "Core implementation of the Sophon Network, a decentralized blockchain protocol."
+is_private = False
+
+try:
+    # Create the repository
+    repo = user.create_repo(
+        name=repo_name,
+        description=repo_description,
+        private=is_private,
+        auto_init=True,  # Initializes with a README
+        license_template="mit"  # Optional: MIT license
+    )
+    print(f"Repository {repo_name} created successfully.")
+
+    # Add the topic "sophon-network"
+    repo.replace_topics(["sophon-network"])
+    print(f"Topic 'sophon-network' added to {repo_name}.")
+
+except Exception as e:
+    print(f"Error creating repository: {e}")
