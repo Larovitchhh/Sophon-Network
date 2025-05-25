@@ -1,0 +1,15 @@
+# Sophon Airdrop Eligibility Criteria
+
+The Sophon Network airdrop distributes $SOPH tokens to eligible participants. Below are the known eligibility criteria based on official announcements:
+
+- **zkSync Power Users**: Users with significant activity on the zkSync network.
+- **Sophon Early Adopters**: Early users and community members who interacted with the Sophon testnet or mainnet.
+- **Node Holders**: Participants running Sophon nodes, with allocations potentially exceeding node rewards.
+- **NFT Communities**: Select NFT community members (specific communities to be announced).
+- **Kaito Yappers**: Social media contributors on platforms like X, potentially with a dedicated claim page.
+
+**How to Check Eligibility**:
+- Visit the [Sophon Airdrop Checker](https://airdrop.sophon.network) (no wallet connection required).
+- Use the `checker.js` script in this repository to programmatically verify eligibility.
+
+**Note**: Always verify eligibility through official Sophon channels to avoid scams.[](https://blog.sophon.xyz/soph-token-airdrop/)
