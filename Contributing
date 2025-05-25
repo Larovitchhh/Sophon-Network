@@ -1,0 +1,15 @@
+# Contributing to Sophon Airdrop Tool
+
+We welcome contributions to enhance the Sophon airdrop tool! Here’s how you can contribute:
+
+- **Report Bugs**: Open an issue on GitHub with details of the bug.
+- **Add Features**: Submit pull requests for new features, such as improved eligibility checkers or claim automation scripts.
+- **Improve Documentation**: Update `docs/` with clearer guides or additional resources.
+- **Follow Guidelines**:
+  - Fork the repository and create a feature branch.
+  - Ensure code follows the project’s style guide (e.g., ESLint for JavaScript).
+  - Include tests in the `tests/` directory.
+
+Join the Sophon community on [X](https://x.com/sophon) or [Discord](https://discord.sophon.network) to discuss contributions!
+
+**Source**: Sophon Network community guidelines.[](https://blog.sophon.xyz/soph-token-airdrop/)
