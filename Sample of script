@@ -1,0 +1,11 @@
+repo_names = ["sophon-network-core", "sophon-node", "sophon-smart-contracts"]
+for name in repo_names:
+    repo = user.create_repo(
+        name=name,
+        description=f"{name} component of the Sophon Network.",
+        private=False,
+        auto_init=True,
+        license_template="mit"
+    )
+    repo.replace_topics(["sophon-network"])
+    print(f"Created {name} with topic 'sophon-network'.")
